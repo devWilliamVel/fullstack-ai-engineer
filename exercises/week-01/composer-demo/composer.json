@@ -1,0 +1,12 @@
+{
+    "name": "student/composer-demo",
+    "description": "Demo of PSR-4 autoloading",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3"
+    }
+}
